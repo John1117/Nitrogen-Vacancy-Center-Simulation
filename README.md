@@ -13,12 +13,28 @@ This project simulates the behavior of the nitrogen-vacancy center (NVC) in a na
 
 - `ODMR.py`: Script for simulating Optically Detected Magnetic Resonance (ODMR).
 - `ODRS.py`: Script for simulating Optically Detected Relaxation Spectroscopy (ODRS).
-- `stretched_exponential_simulation.py`: Simulation of the stretched exponential decay behavior of ODRS.
-- `main.py`: Main script for running simulations.
+- `stretched_exponential_simulation.ipynb`: Simulation of the stretched exponential decay behavior of ODRS.
+- `ODMR_fitting_and_ODRS_simulation.ipynb`: Main script for fitting ODMR and running ODRS simulations.
 
-## Prerequisites
+## Getting Start
+
+### Prerequisites
 - Python 3.x
 - `numpy`
 - `matplotlib`
 - `scipy`
 - `pandas`
+
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/John1117/Nitrogen-Vacancy-Center-Simulation.git
+    ```
+    
+2. Install the dependencies using:
+    ```bash
+    cd Nitrogen-Vacancy-Center-Simulation
+    pip install -r requirements.txt
+    ```
+### Usage
+See `ODMR_fitting_and_ODRS_simulation.ipynb` for ODMR fitting and_ODRS simulation or `stretched_exponential_simulation.ipynb` for stretched exponential synthesis from exponential decays with  different decay rates.
